@@ -18,7 +18,7 @@ cp ./populate.sql /tmp/populate.sql
 pushd /
 
 # postgres -c "${PSQL} -U postgres -d postgres -f /tmp/create-schema.sql"
-${PSQL} -u root -p lawp </tmp/populate.sql
+${PSQL} -u root -pOluwaseun1@ lawp </tmp/populate.sql
 if [ $? -eq 0 ]; then
     echo "script  schema succeeeded"
 else

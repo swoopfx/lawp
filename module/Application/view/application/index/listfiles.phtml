@@ -1,0 +1,8 @@
+
+<?php foreach ($files as $file):
+    
+    ?>
+
+    <a href="<?= $this->url("application", ["action"=>"download"])."?file={$file['real']}" ?>"><?= $file["base"] ?> </a><br>
+
+<?php endforeach; ?>

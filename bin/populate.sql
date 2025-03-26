@@ -1,4 +1,6 @@
 drop procedure if exists InsertSampleData;
+
+TRUNCATE TABLE consolidated_orders ;
 DELIMITER $$
 
 CREATE PROCEDURE InsertSampleData()
