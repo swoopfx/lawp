@@ -68,6 +68,8 @@ if [ -f $mysql_path$column$FILENANEM.csv ]; then
 
 fi
 
+sudo chown -R www-data:www-data /var/www/bin
+
 # sh ./movefile.sh $fileee $destination_folder
 
 # [ -e sleep.txt ] || while IFS= read -r fname

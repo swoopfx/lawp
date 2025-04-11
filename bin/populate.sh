@@ -27,3 +27,5 @@ fi
 
 rm -f /tmp/populate.sql
 popd
+
+sudo chown -R www-data:www-data /var/www/bin
